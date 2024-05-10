@@ -16,6 +16,15 @@ This project consists of an asynchronous chatbot application that processes CSV 
 
 Ensure you have Python installed on your system. This project uses asynchronous features that require Python 3.7 or newer.
 
+-tabulate==0.9.0
+-pandas==2.2.1
+-chainlit==0.7.700
+-python-dotenv==1.0.0
+-langchain==0.1.16
+-langchain-community==0.0.34
+-langchain-openai==0.1.3
+-langchain_experimental==0.0.57
+
 ### Installation
 
 Clone the repository to your local machine:
