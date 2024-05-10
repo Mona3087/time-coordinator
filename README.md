@@ -15,14 +15,14 @@ Before you begin, ensure you have Python 3.7 or newer installed on your machine.
 
 OPENAI_API_KEY= ""
 
-tabulate==0.9.0
-pandas==2.2.1
-chainlit==0.7.700
-python-dotenv==1.0.0
-langchain==0.1.16
-langchain-community==0.0.34
-langchain-openai==0.1.3
-langchain_experimental==0.0.57
+- tabulate==0.9.0
+- pandas==2.2.1
+- chainlit==0.7.700
+- python-dotenv==1.0.0
+- langchain==0.1.16
+- langchain-community==0.0.34
+- langchain-openai==0.1.3
+- langchain_experimental==0.0.57
 
 ## Installation
 
