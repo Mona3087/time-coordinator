@@ -1,4 +1,4 @@
-# Time Coordinator
+# JIRA Time Coordinator
 ![alt text](CrossTimeCoordinator.png)
 
 Welcome to Time Coordinator, an asynchronous chatbot application designed to help you manage and process data from CSV files. This project enables real-time interaction with users, offering tools to upload files, count characters, and dynamically generate responses based on the processed data.
