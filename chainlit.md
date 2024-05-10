@@ -1,4 +1,4 @@
-# Welcome to Time Coordinator! 🚀🤖
+# Welcome to JIRA Time Coordinator! 🚀🤖
 
 ![alt text](CrossTimeCoordinator.png)
 
