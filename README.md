@@ -1,7 +1,8 @@
 # JIRA Time Coordinator
 ![alt text](CrossTimeCoordinator.png)
 
-Welcome to Time Coordinator, an asynchronous chatbot application designed to help you manage and process data from CSV files. This project enables real-time interaction with users, offering tools to upload files, count characters, and dynamically generate responses based on the processed data.
+Welcome to JIRA Time Coordinator, an asynchronous chat application designed to help your team. Managing resources efficiently in DevOps/SRE org can be challenging, especially when teams are large or spread across different projects. An app that integrates with JIRA to analyze availability and find optimal time slots for new assignments can significantly improve project management by ensuring resources are utilized effectively, reducing downtime and potential project delays.
+
 
 ## Features
 
