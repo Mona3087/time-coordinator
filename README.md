@@ -1,7 +1,7 @@
 # JIRA Time Coordinator
 ![alt text](CrossTimeCoordinator.png)
 
-Welcome to JIRA Time Coordinator, an asynchronous chat application designed to help your team. Managing resources efficiently in DevOps/SRE org can be challenging, especially when teams are large or spread across different projects. An app that integrates with JIRA to analyze availability and find optimal time slots for new assignments can significantly improve project management by ensuring resources are utilized effectively, reducing downtime and potential project delays.
+Welcome to JIRA Time Coordinator, an asynchronous chat application designed to help your team. Managing resources efficiently in DevOps/SRE org can be challenging, especially when teams are large or spread across different projects. An app that takes JIRA data in csv to analyze availability and find optimal time slots for new assignments can significantly improve project management by ensuring resources are utilized effectively, reducing downtime and potential project delays.
 
 
 ## Features
@@ -65,3 +65,9 @@ If you encounter issues during installation or while using the application, ensu
 ## Contributing
 
 Contributions to Time Coordinator are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
+
+## Future Enhancements
+
+- Enable integration with JIRA to get ticket details dynamically rather than manual uploads.
+- Assign JIRAs to right owners after finding them.
+- Integrate with chat channels like slack for tracking time off messages from team members.
