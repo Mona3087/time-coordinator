@@ -28,13 +28,14 @@ async def start_chat():
         content=f"`{csv_file.name}` uploaded, it contains {len(text)} characters!"
     ).send()
 
-    cl.user_session.set("file_path", csv_file.path)  # Store the file path in the session.
+    cl.user_session.set("schedule_file_path", csv_file.path)  # Store the file path in the session.
 
 @cl.on_message  # Decorator to handle each message received from the user during the session.
 async def main(message: cl.Message):
-    file_path = cl.user_session.get("file_path")  # Retrieve the stored file path from the session.
+    file_path = cl.user_session.get("schedule_file_path")  # Retrieve the stored file path from the session.
+    chat_file_path = "chat.csv"
     df = pd.read_csv(file_path)  # Load the CSV file into a pandas dataframe.
-    uploaded_file = file_path  # Update the global variable with the current file path.
+    uploaded_file = [file_path, chat_file_path] # Update the global variable with the current file path.
     print(uploaded_file)  # Print the file path.
     agent = create_csv_agent(
         ChatOpenAI(temperature=0, model="gpt-3.5-turbo-0125"),
