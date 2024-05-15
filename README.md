@@ -37,13 +37,14 @@ cd time-coordinator
 pip install -w requirements.txt
 ```
 
-Run Locally
+### Run Locally
 Use Streamlit to run the application:
 
 ```bash
 streamlit run app.py -w
-Build and Run with Docker
+
 ```
+### Build and Run with Docker
 Alternatively, you can build and run the application using Docker:
 
 ```bash
